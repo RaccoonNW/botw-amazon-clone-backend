@@ -5,6 +5,7 @@ class CreateArrows < ActiveRecord::Migration[7.0]
       t.string :effect
       t.string :image
       t.text :description
+      t.string :category
 
       t.timestamps
     end

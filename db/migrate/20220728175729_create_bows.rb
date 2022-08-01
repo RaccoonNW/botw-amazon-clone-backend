@@ -7,6 +7,7 @@ class CreateBows < ActiveRecord::Migration[7.0]
       t.integer :range
       t.text :description
       t.string :category
+      t.string :image
 
       t.timestamps
     end

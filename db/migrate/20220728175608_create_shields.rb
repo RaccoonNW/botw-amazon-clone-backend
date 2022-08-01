@@ -8,6 +8,7 @@ class CreateShields < ActiveRecord::Migration[7.0]
       t.string :image
       t.text :description
       t.string :category
+      t.integer :defense
 
       t.timestamps
     end
